@@ -1,0 +1,38 @@
+{
+  "name": "NavExercise",
+  "description": "Exercise for candidates to complete where they will build a responsive nav driven from json",
+  "version": "0.1.1",
+  "authors": [
+    "Wes Hatch <whatch@hugeinc.com>",
+    "Karl Stanton <kstanton@hugeinc.com>"
+  ],
+  "license": "© 2016 Huge. All Rights Reserved.",
+  "homepage": "https://github.com/hugeinc/NavExercise",
+  "bugs": {
+    "url": "https://github.com/hugeinc/NavExercise/issues"
+  },
+  "private": true,
+  "scripts": {
+    "test": "grunt karma",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "morgan": "~1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-karma": "^2.0.0",
+    "karma": "^1.2.0",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sinon": "^1.0.5",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  }
+}
